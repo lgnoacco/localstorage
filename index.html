@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Usuário</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Bem-vindo ao Site</h1>
+    <button id="loginBtn">Login/Cadastro</button>
+  </header>
+
+  <main class="main-content">
+    <p>Conteúdo do site aqui...</p>
+  </main>
+
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <h2>Cadastro</h2>
+      <form id="cadastroForm">
+        <input type="text" id="nome" placeholder="Nome" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="text" id="telefone" placeholder="Telefone" required>
+        <input type="text" id="cpf" placeholder="CPF" required>
+        <input type="password" id="senha" placeholder="Senha" required>
+        <button type="button" id="fecharBtn">Fechar</button>
+        <button type="submit">Cadastrar</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
